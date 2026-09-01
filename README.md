@@ -2,7 +2,7 @@
 
 ## 环境
 
-推荐使用 Linux / WSL2 + Ubuntu，并安装：
+推荐使用 Linux环境，并安装：
 
 ```bash
 sudo apt update
