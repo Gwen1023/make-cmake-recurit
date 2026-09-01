@@ -1,14 +1,5 @@
 # Make & CMake Recruit
 
-一个面向 C 语言初学者的 Make & CMake 入门实践项目。
-
-本项目只保留 4 个轻量任务：
-
-1. 理解 C 源码到可执行文件的基本流程
-2. 补全一个简单 Makefile
-3. 补全一个简单 CMakeLists.txt
-4. 回答几个与构建系统有关的思考题
-
 ## 环境
 
 推荐使用 Linux / WSL2 + Ubuntu，并安装：
@@ -49,8 +40,6 @@ cmake --version
 
 请在 `answers/task1.md` 中，用自己的语言简要说明一个 C 程序从 `.c` 源文件到可执行文件的大致过程。
 
-建议覆盖：预处理、编译、汇编、链接。无需写得很深，300～500 字即可。
-
 你可以自己尝试：
 
 ```bash
@@ -60,7 +49,7 @@ gcc -c hello.s -o hello.o
 gcc hello.o -o hello
 ```
 
-重点是理解各阶段在做什么，而不是背命令。
+重点理解各阶段在做什么。
 
 ## Task 2：完成 Makefile
 
